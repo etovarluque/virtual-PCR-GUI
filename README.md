@@ -1,11 +1,15 @@
 # virtualPCR Studio
 
+A desktop GUI for **virtualPCR** by Ruslan Kalendar:
+<https://github.com/rkalendar/virtualPCR>
+
 PyQt6 front end and Python core around the `virtualPCR` JAR (Kalendar et al.
 2024, GPLv3). It runs in silico PCR over one or more FASTA files with one or
 more primer pairs, parses the report, and exports tidy tables.
 
 The JAR is the engine; nothing here reimplements primer binding or the
-thermodynamic model.
+thermodynamic model. All of the in silico PCR logic lives in the upstream
+project linked above.
 
 ## Running it
 

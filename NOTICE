@@ -9,8 +9,10 @@ by the Free Software Foundation. See the LICENSE file for the full text.
 Bundled third-party component
 -------------------------------------------------------------------------------
 
-jar/virtualPCR.jar is the in silico PCR engine. It is distributed here
-unmodified, under the GNU General Public License version 3.
+jar/virtualPCR.jar is the in silico PCR engine, from the virtualPCR project
+by Ruslan Kalendar: https://github.com/rkalendar/virtualPCR
+It is distributed here unmodified, under the GNU General Public License
+version 3.
 
     Kalendar R., Shustov A.V., Akhmetollayev I., Kairov U. (2024)
     Designing allele-specific competitive-extension PCR-based assays for
