@@ -297,24 +297,6 @@ The zone repaints itself from the palette, so it works under a dark theme.
 the repaint is guarded twice — a re-entry flag, and a comparison against the
 current sheet. Without both it recurses until the process dies, which it did.
 
-## Why one JAR run per primer pair
-
-Given several primers at once, the JAR pairs *any* forward with *any* reverse
-and reports amplicons that span unrelated pairs — running MiFish-U and Elas02
-together yields a spurious `MiFish-U-F` / `Elas02-R` product. Its `FRpairs=true`
-mode restricts pairing correctly but stops reporting amplicon sequences and
-annealing temperatures.
-
-So each pair gets its own invocation, with `ShowOnlyAmplicons=true`, which is
-the only output shape that carries `Ta` and the amplicon counters. Attribution
-is unambiguous and the report stays rich. Pairs run in parallel; a 13,500-
-sequence mitogenome set costs a few seconds per pair.
-
-Each run works in a temporary directory holding a hard link to the target, so
-large FASTA files are never copied and concurrent runs cannot collide over the
-report file. (Older JAR builds ignore `output_path` and write `<target>.out`
-next to the target.)
-
 ## The two JAR generations are not interchangeable
 
 Two builds exist, with different engines (`InSilicoPCR2`/`InSilicoPCR3` vs
