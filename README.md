@@ -257,20 +257,6 @@ opens, the file is loaded.
 The CLI equivalent is `--combine`, which pairs every forward against every
 reverse in the file.
 
-This is what tells a forward-driven assay from a reverse-driven one. Crossing
-three 12S forwards with two reverses over 300 mitogenomes:
-
-| pair | amplified |
-|---|---|
-| `MiFish-U-F\|MiFish-U-R` | 61.3 % |
-| `MiFish-U-F\|Elas02-R` | 60.7 % |
-| `Elas02-F\|Elas02-R` | 7.0 % |
-| `Elas02-F\|MiFish-U-R` | 7.0 % |
-| `MiFish-E-F\|Elas02-R` | 6.0 % |
-| `MiFish-E-F\|MiFish-U-R` | 6.0 % |
-
-Coverage tracks the forward primer; swapping the reverse barely moves it.
-
 ## Drag and drop
 
 Each field accepts only what it can use, and refuses the rest at the cursor:
