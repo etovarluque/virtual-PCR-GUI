@@ -1,0 +1,22 @@
+virtualPCR Studio
+Copyright (C) 2025 edutovar <edutovar@gmail.com>
+
+This program is free software: you can redistribute it and/or modify it
+under the terms of the GNU General Public License version 3 as published
+by the Free Software Foundation. See the LICENSE file for the full text.
+
+-------------------------------------------------------------------------------
+Bundled third-party component
+-------------------------------------------------------------------------------
+
+jar/virtualPCR.jar is the in silico PCR engine. It is distributed here
+unmodified, under the GNU General Public License version 3.
+
+    Kalendar R., Shustov A.V., Akhmetollayev I., Kairov U. (2024)
+    Designing allele-specific competitive-extension PCR-based assays for
+    high-throughput genotyping and gene characterization.
+    Frontiers in Molecular Biosciences.
+
+Source for the engine is available from its authors; the GPLv3 entitles you
+to it. Nothing in this repository reimplements primer binding or the
+thermodynamic model.

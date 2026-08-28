@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# App runtime output and logs
+/output/*
+!/output/.gitkeep
+crash.log
+*.log
+
+# Qt / app settings (stored in the registry on Windows, but just in case)
+*.ini
+
+# OS / editor cruft
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
