@@ -11,6 +11,8 @@ The JAR is the engine; nothing here reimplements primer binding or the
 thermodynamic model. All of the in silico PCR logic lives in the upstream
 project linked above.
 
+![virtualPCR Studio](screenshot/screenshot_vpcr_gui.png)
+
 ## Running it
 
 Double-click **`Run vPCR.bat`**. It finds Python, installs the dependencies the
